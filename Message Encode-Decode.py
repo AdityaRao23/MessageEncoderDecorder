@@ -36,7 +36,7 @@ lblInfo = Label(Tops, font=('arial', 20, 'bold'),
                          
 lblInfo.grid(row = 1, column = 0)
  
-rand = StringVar()
+random = StringVar()
 Msg = StringVar()
 key = StringVar()
 mode = StringVar()
@@ -48,7 +48,7 @@ def qExit():
  
 # Function to reset the window
 def Reset():
-    rand.set("")
+    random.set("")
     Msg.set("")
     key.set("")
     mode.set("")
@@ -62,7 +62,7 @@ lblReference = Label(f1, font = ('arial', 16, 'bold'),
 lblReference.grid(row = 0, column = 0)
  
 txtReference = Entry(f1, font = ('arial', 16, 'bold'),
-               textvariable = rand, bd = 10, insertwidth = 4,
+               textvariable = random, bd = 10, insertwidth = 4,
                         bg = "powder blue", justify = 'right')
                          
 txtReference.grid(row = 0, column = 1)
